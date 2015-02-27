@@ -4,7 +4,7 @@ title: Relation Extraction by Example
 author: Mark Farrell
 ---
 
-This post covers examples of how to extract relations (triples) from sentences and exercises to practice extracting relations from sentences. The first part of this post offers examples and exercises of what relations should be extracted from sentences, but does not offer a computational method for extracting relations from sentences. A method for extracting relations from sentences that involves pattern matching on their syntactic structure is discussed in the second part ofthe post. All sentences are in English.
+This post covers examples of how to extract relations (triples) from sentences and exercises to practice extracting relations from sentences. The first part of this post offers examples and exercises of what relations should be extracted from sentences, but does not offer a computational method for extracting relations from sentences. A method for extracting relations from sentences that involves pattern matching on their syntactic structure is discussed in the second part of the post. All sentences are in English.
 
 Let's get started by discussing what relations should be extracted from sentences:
 
