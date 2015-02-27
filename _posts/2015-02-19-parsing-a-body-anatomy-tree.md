@@ -4,7 +4,7 @@ title: Parsing a Body Anatomy Tree
 author: Michael Tu
 ---
 
-Recently I finished working on constructing a human body tree so that relations extracted from the [Knowledge Extraction](https://github.com/crea-berkeley/relation-extraction) project could be associated with parts of the human body. In this blog post I would like to discuss the process I went through to decode a text file that encodes information about the anatomy of the human body and produce a JSON file representing this hierarchical structure.
+Recently I finished working on constructing a human body tree so that relations extracted from journal articles could be associated with parts of the human body. In this blog post I would like to discuss the process I went through to decode a text file that encodes information about the anatomy of the human body and produce a JSON file representing this hierarchical structure.
 
 The input file that encodes the various parts of the human body, from larger components such as organs to smaller components such as cells, is a text file of unknown format. I will refer to this file as the *tree* file from this point onwards. The tree file was produced a while ago and nobody remembers exactly how it was encoded. The only other hint is that there is a PHP script that the author made to work with this file, so it might provide clues on how to decode the tree. Here is a snippet of the tree file:
 
